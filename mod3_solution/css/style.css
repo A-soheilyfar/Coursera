@@ -1,3 +1,44 @@
-body{
-    background-color:crimson;
+
+*{
+    margin: 0;
+    padding: 0;
 }
+
+
+ul{
+    background-color:rgb(165, 1, 1,0.8);
+    color: WhiteSmoke;
+    width: 100%;
+    margin: 5px 0 0 0;
+}
+
+ul li{
+    border:  1px solid #111;
+}
+ul li:hover{
+    background-color:rgba(253, 200, 200, 0.8);
+}
+
+p{
+    background-color: rgb(165, 1, 1,0.8);
+    color: WhiteSmoke;
+    
+}
+
+
+/* class style */
+.nav-link  {
+    color:WhiteSmoke;
+}
+.navbar-toggler{
+    font-size: 1rem;
+}
+
+@media (max-width:425px) {
+    .col-xs-12,.row{
+        margin: 0 5px;
+    }
+}
+
+
+
