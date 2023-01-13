@@ -19,14 +19,16 @@ ul li:hover{
     background-color:rgba(253, 200, 200, 0.8);
 }
 
-p{
+
+
+/* class style */
+.header{
+    margin-top: 10px;
     background-color: rgb(165, 1, 1,0.8);
     color: WhiteSmoke;
     
 }
 
-
-/* class style */
 .nav-link  {
     color:WhiteSmoke;
 }
